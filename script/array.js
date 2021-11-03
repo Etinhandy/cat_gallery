@@ -81,7 +81,7 @@ cat_images.forEach(e => {
     html += `
     <div class="col-sm-12 col-md-4 col-lg-4">
     <div class="card" style="width: 18rem;">
-        <img src="./images/${e.pic}" class="card-img-top pic" alt="...">
+        <img src="./images/${e.pic}" class="card-img-top pic img-fluid" alt="...">
         <div class="card-body">
           <h5 class="card-title name">${e.name}</h5>
           <p class="card-text description">${e.description}</p>
