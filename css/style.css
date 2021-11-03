@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fruktur', cursive;
+}
+
+.field {
+    background-image: url(../images/welcome-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    height: 40vh;
+  }
+
+  
+  .hey {
+    width: 700px;
+    height: 600px;
+  }
+
+  #cat_matter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pic {
+    width: auto;
+    height: 300px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    height: 2rem;
+  }
+
+  .hello {
+    height: 1.6rem !important;
+    width: 1.4rem;
+    padding: 4px;
+  }

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>catShop </title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <header class="image-back bg-dark">
+        <nav
+          class="navbar navbar-expand-md navbar-light text-white navbar-fix-top"
+        >
+          <div class="container">
+            <a class="navbar-brand mb-0 h1 text-white" href="index.html">
+              catShop
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav text-center ms-auto text-white">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="index.html"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-capitalize text-white"
+                    aria-current="page"
+                    href="array.html"
+                  >
+                    Cat photos
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="contact.html"
+                  >
+                    contact us
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <section class="bg-secondary">
+      <h2 class="text-center text-white fw-bold display-5 py-2 pt-3">
+        CONTACT US
+      </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-4 mb-2">
+            <div
+              class="crad-body text-center p-2 m-2 bg-white rounded-3 border-0"
+            >
+              <img src="./images/whatsapp.png" alt="" class="icon" />
+              <h5 class="card-title">Whatsapp</h5>
+              <p class="card-text" style="font-size: 0.8rem;">
+                Chat us on whatsapp for enquiries
+              </p>
+              <a
+                href="/"
+                class="btn btn-outline-secondary text-white bg-primary"
+              >
+                chat us
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4 mb-2">
+            <div
+              class="crad-body text-center p-2 m-2 bg-white rounded-3 border-0"
+            >
+              <img src="./images/twitter.png" alt="" class="icon" />
+              <h5 class="card-title">Twitter</h5>
+              <p class="card-text" style="font-size: 0.8rem;">
+                follow us on twitter for more updates
+              </p>
+              <a
+                href="/"
+                class="btn btn-outline-secondary text-white bg-primary"
+              >
+                follow us
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4 mb-2">
+            <div
+              class="crad-body text-center p-2 m-2 bg-white rounded-3 border-0"
+            >
+              <img src="./images/instagram.png" alt="" class="icon" />
+              <h5 class="card-title">Instagram</h5>
+              <p class="card-text" style="font-size: 0.8rem;">
+                Follow us on instagram for more updates
+              </p>
+              <a
+                href="/"
+                class="btn btn-outline-secondary text-white bg-primary"
+              >
+                follow us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container py-5 w-75">
+        <h5 class="mb-3">For suggestionsor complain, send us a mail</h5>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Name</label>
+            <input type="password" class="form-control" id="inputPassword4" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Edo</option>
+              <option>Delta</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">
+              Your Comment
+            </label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="subscribe bg-light">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12 mb-4">
+            <h1 class="heading text-danger">
+              Get news &amp; Updates
+            </h1>
+          </div>
+
+          <div class="col-md-12">
+            <form action="" method="POST">
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your name here"
+                  />
+                </div>
+                <div class="col-md-4 mb-4">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your email here"
+                  />
+                </div>
+                <div class="col-md-4 mb-4">
+                  <input
+                    type="submit"
+                    class="btn btn-secondary w-100"
+                    value="subscribe"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center bg-black text-white">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-3 mb-5">
+              <h2>About Us</h2>
+              <p>
+                catShop is a place to get your cats and cats accessories from.
+              </p>
+              <p>
+                <a href="about.html" class="text-white text-decoration-none">
+                  Click here to learn more
+                </a>
+              </p>
+            </div>
+  
+            <div class="col-md-3 mb-5">
+              <h2>Contact &amp; Address</h2>
+              <ul class="list-unstyled footer-link">
+                <li class="d-flex">
+                  <span class="me-3">Adress</span>
+                  <span class="text-white">
+                    29, airport avenue, Benin city, Edo state, Nigeria
+                  </span>
+                </li>
+                <li class="d-flex">
+                  <span class="me-3">Telephone</span>
+                  <span class="text-white">+234 8104 781 536</span>
+                </li>
+                <li class="d-flex">
+                  <span class="me-3">Email</span>
+                  <span class="text-white">info@sabicook.com</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-5 text-center">
+              <h2>Quick Links</h2>
+              <ul class="list-unstyled footer-link text-center">
+                <li>
+                  <a href="index.html" class="text-decoration-none text-white">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html" class="text-decoration-none text-white">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="service.html" class="text-decoration-none text-white">
+                    Our services
+                  </a>
+                </li>
+                <li>
+                  <a href="contact.html" class="text-decoration-none text-white">
+                    Our contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h2>Our social media</h2>
+              <div class="d-flex px-5">
+                <div>
+                  <img
+                    src="./images/twitter.png"
+                    alt=""
+                    class="img-fluid hello"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./images/whatsapp.png"
+                    alt=""
+                    class="img-fluid hello"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./images/instagram.png"
+                    alt=""
+                    class="img-fluid hello"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="./js/bootstrap.min.js                                                                                        "></script>
+  </body>
+</html>
