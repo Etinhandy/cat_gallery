@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Fruktur", cursive;
-  overflow-x: hidden;
-}
+ }
 .field {
   background-image: url(../images/welcome-1.jpg);
   background-position: center;
